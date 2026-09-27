@@ -1,0 +1,22 @@
+name: BXLogin
+version: ${version}
+main: com.furkangame.bxlogin.BXLogin
+api-version: '1.21'
+authors: [FurkanGame]
+softdepend: [Floodgate]
+
+description: Basit, Türkçe ve özelleştirilebilir oyuncu kayıt/giriş sistemi.
+
+commands:
+  register:
+    description: Yeni hesap oluşturur.
+    usage: /register <şifre> <şifre-tekrar>
+    aliases: [kayıt, kayit]
+  login:
+    description: Hesabınıza giriş yapar.
+    usage: /login <şifre>
+    aliases: [giriş, giris]
+  sifre:
+    description: Şifrenizi değiştirir.
+    usage: /şifre değiştir <yeni-şifre> <tekrar>
+    aliases: [şifre]
