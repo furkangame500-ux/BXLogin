@@ -1,0 +1,40 @@
+# BXLogin Türkçe Mesajlar
+
+prefix: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset>"
+
+title:
+  login-header: "<aqua><bold>GİRİŞ YAP</bold>"
+  login-footer: "<gray>/giriş <şifre> veya /login <şifre>"
+  register-header: "<aqua><bold>KAYIT OL</bold>"
+  register-footer: "<gray>/kayıt <şifre> <şifre-tekrar>"
+
+bossbar:
+  login: "<aqua>Giriş yapman gerekiyor! <white>{time}"
+  register: "<aqua>Kayıt olman gerekiyor! <white>{time}"
+
+join:
+  login-needed: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Hesabına giriş yapmalısın. <white>/giriş <şifre>"
+  register-needed: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Önce hesap oluşturmalısın. <white>/kayıt <şifre> <şifre-tekrar>"
+  bedrock-auto-login: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><green>Bedrock hesabın otomatik olarak doğrulandı."
+
+error:
+  not-player: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><red>Bu komut sadece oyuncular tarafından kullanılabilir."
+  not-authenticated: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><red>Devam etmek için önce giriş yapmalısın."
+  not-registered: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><red>Kayıtlı bir hesabın yok. <white>/kayıt <şifre> <şifre-tekrar>"
+  already-logged-in: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Zaten giriş yaptın."
+  already-registered: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Bu hesap zaten kayıtlı."
+  incorrect-password: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><red>Şifre yanlış."
+  password-mismatch: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><red>Şifreler eşleşmiyor."
+  timeout: "<red>BXLogin: <white>3 dakika içinde giriş yapmadığın için sunucudan çıkarıldın."
+  session-expired: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Oturumunun süresi doldu. Lütfen tekrar giriş yap."
+
+usage:
+  register: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Kullanım: <white>/kayıt <şifre> <şifre-tekrar>"
+  login: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Kullanım: <white>/giriş <şifre>"
+  changepassword: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><yellow>Kullanım: <white>/şifre değiştir <yeni-şifre> <tekrar>"
+
+success:
+  register: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><green>Kayıt başarıyla oluşturuldu ve giriş yapıldı!"
+  login: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><green>Başarıyla giriş yaptın!"
+  session-resumed: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><green>Oturumun doğrulandı."
+  password-changed: "<gradient:#00BFFF:#7A5CFF><bold>BXLogin</bold></gradient> <dark_gray>» <reset><green>Şifren başarıyla değiştirildi!"
