@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDEs (IntelliJ / Eclipse / VSCode)
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Minecraft Run Data
+run/
+logs/
+crash-reports/
+debug/
+
+# Plugin Data
+database.db
