@@ -1,0 +1,22 @@
+# BXLogin Configuration
+config-version: 1
+
+# Authentication timeout is fixed to 3 minutes as requested.
+authentication-timeout-seconds: 180
+
+# Session auto-login is disabled by default so every required login gets the full 3 minutes.
+sessions:
+  enabled: false
+  clear-on-logout: true
+  timeout-minutes: 60
+
+storage:
+  # SQLITE, MYSQL, MARIADB or REDIS
+  type: SQLITE
+  host: "localhost"
+  port: 3306
+  database: "bxlogin"
+  username: "root"
+  password: ""
+  ssl: false
+  pool-size: 10
